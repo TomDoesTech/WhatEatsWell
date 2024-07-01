@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import usersSchema from "../schemas/users.schema.js";
+import usersSchema from "../schemas/users.schema";
 
 //Use correct database from the database connection
 const database = mongoose.connection.useDb("accounts");

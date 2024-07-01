@@ -1,7 +1,7 @@
 import test from "ava";
 import request from "supertest";
 import mongoose from "mongoose";
-import app from "../../server.js";
+import app from "../../../server";
 import dotenv from "dotenv";
 
 // Load environment variables from .env file

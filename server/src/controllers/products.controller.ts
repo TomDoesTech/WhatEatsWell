@@ -1,6 +1,6 @@
-import ProductsModel from "../models/products.model.js";
-import UserModel from "../models/users.model.js";
-import { getUserFromToken } from "../utils/auth.js";
+import ProductsModel from "../models/products.model";
+import UserModel from "../models/users.model";
+import { getUserFromToken } from "../utils/auth";
 
 async function searchAndDisplayProducts(req, res) {
   try {

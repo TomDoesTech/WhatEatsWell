@@ -2,10 +2,10 @@ import mongoose from "mongoose";
 import axios from "axios";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
-import productsSchema from "../schemas/products.schema.js";
-import UserModel from "./users.model.js";
+import productsSchema from "../schemas/products.schema";
+import UserModel from "./users.model";
 import { ObjectId } from "mongodb";
-import { getUserFromToken } from "../utils/auth.js";
+import { getUserFromToken } from "../utils/auth";
 
 //Use correct database from the database connection
 const database = mongoose.connection.useDb("foods");

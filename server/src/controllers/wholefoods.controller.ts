@@ -1,4 +1,4 @@
-import Wholefoods from "../models/wholefoods.js";
+import Wholefoods from "../models/wholefoods";
 
 export default class WholefoodsController {
   // API endpoint handler for retrieving all wholefoods
@@ -6,12 +6,12 @@ export default class WholefoodsController {
     try {
       // Retrieve wholefoods names
       const wholefoods = await Wholefoods.find({}, { food_name: 1 });
-  
+
       // Prepare the response
       const response = {
-        wholefoodsNames: wholefoods.map(wholefood => wholefood.food_name)
+        wholefoodsNames: wholefoods.map((wholefood) => wholefood.food_name),
       };
-  
+
       // Send the response
       res.json(response);
     } catch (error) {

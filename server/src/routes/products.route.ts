@@ -4,7 +4,7 @@ import {
   searchAndDisplayProducts,
   addProductBySelection,
   getUserProductDetails,
-} from "../controllers/products.controller.js";
+} from "../controllers/products.controller";
 
 const router = express.Router();
 

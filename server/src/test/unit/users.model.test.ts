@@ -2,9 +2,9 @@ import test from "ava";
 import request from "supertest";
 import mongoose from "mongoose";
 import { MongoMemoryServer } from "mongodb-memory-server";
-import app from "../../server.js";
-import usersSchema from "../../schemas/users.schema.js";
-import UsersModel from "../../models/users.model.js";
+import app from "../../../server";
+import usersSchema from "../../schemas/users.schema";
+import UsersModel from "../../models/users.model";
 
 let mongod;
 let Users;

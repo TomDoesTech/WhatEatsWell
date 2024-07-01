@@ -3,8 +3,8 @@ import axios from "axios";
 import mongoose from "mongoose";
 import sinon from "sinon";
 import jwt from "jsonwebtoken";
-import ProductsModel from "../../models/products.model.js";
-import UserModel from "../../models/users.model.js";
+import ProductsModel from "../../models/products.model";
+import UserModel from "../../models/users.model";
 
 // Mock data
 const sampleProductData = {

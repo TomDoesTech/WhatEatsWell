@@ -1,4 +1,4 @@
-import UsersModel from "../models/users.model.js";
+import UsersModel from "../models/users.model";
 
 export default class UsersController {
   //Retreive all users' information by filter and pagenation

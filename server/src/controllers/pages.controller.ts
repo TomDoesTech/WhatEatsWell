@@ -1,5 +1,5 @@
-import UsersModel from "../models/users.model.js";
-import { hashPassword, comparePassword } from "../helpers/auth.helper.js";
+import UsersModel from "../models/users.model";
+import { hashPassword, comparePassword } from "../helpers/auth.helper";
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
 

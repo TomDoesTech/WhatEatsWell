@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import wholefoodsSchema from "../schemas/wholefoods.schema.js";
+import wholefoodsSchema from "../schemas/wholefoods.schema";
 
 //Use correct database from the database connection
 const database = mongoose.connection.useDb("foods");

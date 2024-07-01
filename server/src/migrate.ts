@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import usersSchema from "./schema/users.schema.js";
-import productsSchema from "./schema/products.schema.js";
-import wholefoodsSchema from "./schema/wholefoods.schema.js";
+import usersSchema from "./schema/users.schema";
+import productsSchema from "./schema/products.schema";
+import wholefoodsSchema from "./schema/wholefoods.schema";
 import dotenv from "dotenv";
 
 // Load environment variables from .env file

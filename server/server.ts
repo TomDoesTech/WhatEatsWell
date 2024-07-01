@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
-import users from "./routes/users.route.js";
-import products from "./routes/products.route.js";
-import pagesRoutes from "./routes/pages.route.js";
+import users from "./src/routes/users.route.js";
+import products from "./src/routes/products.route.js";
+import pagesRoutes from "./src/routes/pages.route.js";
 import cookieParser from "cookie-parser";
 
 //Create express application
